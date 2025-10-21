@@ -1,0 +1,29 @@
+.header {
+  background-color: $header-bg-color;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header__logo {
+  font-size: 24px;
+  font-weight: bold;
+  color: $header-logo-color;
+}
+
+.header__nav {
+  list-style: none;
+  display: flex;
+  gap: 15px;
+}
+
+.header__nav-item {
+  text-decoration: none;
+  color: $header-nav-color;
+  transition: color 0.3s ease;
+
+  &:hover {
+    color: $header-nav-hover-color;
+  }
+}

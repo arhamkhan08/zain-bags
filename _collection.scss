@@ -1,0 +1,36 @@
+.collection {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: 20px 0;
+
+  &__item {
+    flex: 1 1 calc(33.333% - 20px);
+    margin: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    overflow: hidden;
+    transition: transform 0.3s;
+
+    &:hover {
+      transform: scale(1.05);
+    }
+
+    &__image {
+      width: 100%;
+      height: auto;
+    }
+
+    &__title {
+      font-size: 1.2em;
+      font-weight: bold;
+      margin: 10px;
+    }
+
+    &__price {
+      font-size: 1em;
+      color: #333;
+      margin: 10px;
+    }
+  }
+}

@@ -1,0 +1,29 @@
+.footer {
+    background-color: $footer-background-color;
+    color: $footer-text-color;
+    padding: 20px;
+    text-align: center;
+    
+    a {
+        color: $footer-link-color;
+        text-decoration: none;
+
+        &:hover {
+            text-decoration: underline;
+        }
+    }
+}
+
+.footer__socials {
+    margin-top: 10px;
+
+    a {
+        margin: 0 10px;
+        font-size: 1.5rem;
+    }
+}
+
+.footer__copyright {
+    margin-top: 15px;
+    font-size: 0.9rem;
+}

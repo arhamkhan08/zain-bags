@@ -1,0 +1,42 @@
+[
+    {
+        "id": 1,
+        "name": "Classic Leather Backpack",
+        "description": "A timeless leather backpack perfect for everyday use.",
+        "price": 89.99,
+        "image": "assets/images/classic_leather_backpack.jpg",
+        "category": "Backpacks"
+    },
+    {
+        "id": 2,
+        "name": "Canvas Tote Bag",
+        "description": "A spacious canvas tote bag ideal for shopping and outings.",
+        "price": 29.99,
+        "image": "assets/images/canvas_tote_bag.jpg",
+        "category": "Tote Bags"
+    },
+    {
+        "id": 3,
+        "name": "Sporty Duffel Bag",
+        "description": "A durable duffel bag designed for sports and travel.",
+        "price": 49.99,
+        "image": "assets/images/sporty_duffel_bag.jpg",
+        "category": "Duffel Bags"
+    },
+    {
+        "id": 4,
+        "name": "Stylish Crossbody Bag",
+        "description": "A chic crossbody bag for a modern look.",
+        "price": 39.99,
+        "image": "assets/images/stylish_crossbody_bag.jpg",
+        "category": "Crossbody Bags"
+    },
+    {
+        "id": 5,
+        "name": "Eco-Friendly Backpack",
+        "description": "A sustainable backpack made from recycled materials.",
+        "price": 79.99,
+        "image": "assets/images/eco_friendly_backpack.jpg",
+        "category": "Backpacks"
+    }
+]

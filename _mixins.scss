@@ -1,0 +1,27 @@
+// This file contains mixins that can be reused in other SCSS files to avoid code duplication.
+
+@mixin flex-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@mixin transition($property, $duration, $timing-function: ease) {
+  transition: $property $duration $timing-function;
+}
+
+@mixin responsive-font-size($min-size, $max-size) {
+  font-size: $min-size;
+
+  @media (min-width: 768px) {
+    font-size: $max-size;
+  }
+}
+
+@mixin clearfix {
+  &::after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+}
