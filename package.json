@@ -5,7 +5,7 @@
   "main": "src/index.html",
   "scripts": {
     "build": "npm run build-css && npm run build-js",
-    "build-css": "node-sass src/styles/main.scss dist/styles/main.css",
+    "build-css": "sass src/styles/main.scss dist/styles/main.css",
     "build-js": "webpack src/scripts/main.js -o dist/scripts/main.js",
     "start": "live-server src"
   },
